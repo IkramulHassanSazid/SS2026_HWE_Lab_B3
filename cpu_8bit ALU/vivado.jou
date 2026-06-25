@@ -1,0 +1,46 @@
+#-----------------------------------------------------------
+# Vivado v2025.2 (64-bit)
+# SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
+# IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+# SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+# Start of session at: Tue Jun 23 09:22:32 2026
+# Process ID         : 25060
+# Current directory  : C:/Users/aamir/Desktop/University/6th semester/Hardware Engineering/Hardware Lab/cpu_8bit
+# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent22920 C:\Users\aamir\Desktop\University\6th semester\Hardware Engineering\Hardware Lab\cpu_8bit\cpu_8bit.xpr
+# Log file           : C:/Users/aamir/Desktop/University/6th semester/Hardware Engineering/Hardware Lab/cpu_8bit/vivado.log
+# Journal file       : C:/Users/aamir/Desktop/University/6th semester/Hardware Engineering/Hardware Lab/cpu_8bit\vivado.jou
+# Running On         : Aamir
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26200
+# Processor Detail   : 12th Gen Intel(R) Core(TM) i5-1235U
+# CPU Frequency      : 2496 MHz
+# CPU Physical cores : 10
+# CPU Logical cores  : 12
+# Host memory        : 16849 MB
+# Swap memory        : 19905 MB
+# Total Virtual      : 36755 MB
+# Available Virtual  : 2103 MB
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/aamir/Desktop/University/6th semester/Hardware Engineering/Hardware Lab/cpu_8bit/cpu_8bit.xpr}
+update_compile_order -fileset sources_1
+file mkdir C:/Users/aamir/Desktop/University/6th semester/Hardware Engineering/Hardware Lab/cpu_8bit/cpu_8bit.srcs/sim_1/new
+file mkdir C:/Users/aamir/Desktop/University/6th semester/Hardware Engineering/Hardware Lab/cpu_8bit/cpu_8bit.srcs/sim_1/new
+file mkdir C:/Users/aamir/Desktop/University/6th semester/Hardware Engineering/Hardware Lab/cpu_8bit/cpu_8bit.srcs/sim_1/new
+file mkdir C:/Users/aamir/Desktop/University/6th semester/Hardware Engineering/Hardware Lab/cpu_8bit/cpu_8bit.srcs/sim_1/new
+file mkdir C:/Users/aamir/Desktop/University/6th semester/Hardware Engineering/Hardware Lab/cpu_8bit/cpu_8bit.srcs/sim_1/new
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+file mkdir C:/Users/aamir/Desktop/University/6th semester/Hardware Engineering/Hardware Lab/cpu_8bit/cpu_8bit.srcs/sim_1/new
+file mkdir {C:/Users/aamir/Desktop/University/6th semester/Hardware Engineering/Hardware Lab/cpu_8bit/cpu_8bit.srcs/sim_1/new}
+close [ open {C:/Users/aamir/Desktop/University/6th semester/Hardware Engineering/Hardware Lab/cpu_8bit/cpu_8bit.srcs/sim_1/new/alu_tb.vhd} w ]
+add_files -fileset sim_1 {{C:/Users/aamir/Desktop/University/6th semester/Hardware Engineering/Hardware Lab/cpu_8bit/cpu_8bit.srcs/sim_1/new/alu_tb.vhd}}
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+launch_simulation
+source alu_tb.tcl
+run all
+close_sim
+launch_simulation
+source alu_tb.tcl
+save_wave_config {C:/Users/aamir/Desktop/University/6th semester/Hardware Engineering/Hardware Lab/cpu_8bit/alu_tb_behav.wcfg}
+close_sim
