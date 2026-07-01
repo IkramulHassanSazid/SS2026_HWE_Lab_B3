@@ -1,8 +1,6 @@
 -- 8-bit Data register
 
--- Designed by: Ikramul Hassan Sazid
-
--- date: 11 june 2026
+-- Designed by: HWE_LAB_B3
 
 -- purpose: eventually build 8-it accumulator cpu
 
