@@ -135,7 +135,7 @@ GenerateClassCluster=0
 DocumentUniqueId=ZQHXRMPR
 
 [Document6]
-DocumentPath=PCB1.PcbDoc
+DocumentPath=..\..\Downloads\Microcontroller\ul_XC7A100T-1CSG324C\Altium\XC7A100T-1CSG324C\XC7A100T-1CSG324C.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -149,7 +149,49 @@ ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=CPJFCUBC
+DocumentUniqueId=
+
+[Document7]
+DocumentPath=PCB_8Bit_CPU.BomDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document8]
+DocumentPath=CPU_Board_Updated.PcbDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=ARKWTTRT
+
+[GeneratedDocument1]
+DocumentPath=Project Outputs for PCB_8Bit_CPU\BGA Escape Route - CPU_Board.html
+DItemRevisionGUID=
+
+[GeneratedDocument2]
+DocumentPath=Project Outputs for PCB_8Bit_CPU\Design Rule Check - CPU_Board.html
+DItemRevisionGUID=
 
 [Configuration1]
 Name=Sources
